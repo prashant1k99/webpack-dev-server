@@ -1,0 +1,48 @@
+{
+  "name": "tags",
+  "version": "0.0.1",
+  "description": "List of Tags and package JS package that can be used for fetching tags. For more detail read Readme.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crawler": "node server/crawler.js", 
+    "fetcher" : "node server/info.js",
+    "dev" : "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashant1k99/tags.git"
+  },
+  "keywords": [
+    "tags",
+    "github",
+    "topics",
+    "tech",
+    "tags",
+    "technology",
+    "tech",
+    "tags",
+    "list",
+    "tag",
+    "images"
+  ],
+  "author": "Prashant Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashant1k99/tags/issues"
+  },
+  "homepage": "https://github.com/prashant1k99/tags#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^3.0.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
