@@ -4,9 +4,6 @@
   "description": "List of Tags and package JS package that can be used for fetching tags. For more detail read Readme.md",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "crawler": "node server/crawler.js", 
-    "fetcher" : "node server/info.js",
     "dev" : "webpack-dev-server",
     "build": "webpack --mode production"
   },
